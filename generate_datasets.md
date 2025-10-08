@@ -4,8 +4,10 @@ title: Generate Dietary Datasets
 nav_order: 2
 ---
 
-<div style="position:relative; padding-bottom:65%; height:0; overflow:hidden;">
-  <iframe src="{{ '/notebook_htmls/00_generate_datasets.html' | relative_url }}" 
-          style="position:absolute; top:0; left:0; width:100%; height:100%; border:none;">
+<div style="width:100%; border:none;">
+  <iframe id="notebook-frame"
+          src="{{ '/notebook_htmls/00_generate_datasets.html' | relative_url }}"
+          style="width:100%; border:none;"
+          onload="this.style.height=this.contentWindow.document.body.scrollHeight + 'px';">
   </iframe>
 </div>
