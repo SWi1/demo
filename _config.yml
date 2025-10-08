@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Using Diet in ML
+description: A demo on how to use dietary data in machine learning
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://swi1.github.io/demo/
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  GitHub Repository: https://github.com/SWi1/demo
