@@ -1,26 +1,26 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 
 This is a draft of a tutorial site. You can access the GitHub Repo and more details on the `README`.
-
 
 ## Dietary Data
 Text.
 
 ## Programs
 
-### DietDiveR
-Individuals who would like to create a food tree using FNDDS food codes may follow the DietDiveR tutorial, managed by Rie Sadohara and Abigail Johnson.[^1] More on the creation and utility of DietDiveR is available in their accompanying *Journal of Nutrition* publication.[^2] 
-
 ### FDA Food Disaggregation Database
 
+### DietDiveR
+The creation of a food tree using FNDDS food codes are encourged to follow the excellent tutorial on ```DietDiveR``` , managed by Rie Sadohara and Abigail Johnson.[^1] More on the creation and utility of ```DietDiveR``` available in their accompanying *Journal of Nutrition* publication.[^2] 
 
 ## About the Repo
 ### License
 
 This repository is distributed by an MIT license.
+
 ----
 
 [^1]: [DietDiveR Repo](https://computational-nutrition-lab.github.io/DietDiveR/).
