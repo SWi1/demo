@@ -5,10 +5,9 @@ nav_order: 3
 show_toc: true
 ---
 
-### Title: 00_generate_datasets
-### Purpose: Generate four WWEIA datasets: mixed meals, food categories, total nutrients, ingredients
-### Date: July 24, 2024
-### Author: Jules Larke
+# Generate four WWEIA datasets: mixed meals, food categories, total nutrients, ingredients
+Date: July 24, 2024  
+Author: Jules Larke
 
 ### Import packages
 
