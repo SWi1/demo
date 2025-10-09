@@ -3,7 +3,6 @@ layout: default
 title: Generate Dietary Datasets - md
 nav_order: 3
 show_toc: true
-shared_toc: true
 ---
 
 ### Title: 00_generate_datasets
