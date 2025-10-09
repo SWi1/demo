@@ -13,7 +13,7 @@ has_toc: true
   {:toc}
 </details>
 
-### Generate the Mixed Meal (foodcode level) dataset
+# Generate the Mixed Meal (foodcode level) dataset
 ```python
 # select columns
 wweia_foodcode = WWEIA_ALL_final[['SEQN', 'DRXFDCD', 'DRXFCLD', 'DR2IGRMS', 'DR2IKCAL', 'DR2IMOIS',
@@ -45,7 +45,7 @@ foodcode_mean.to_csv('../../data/00/wweia_dataset/wweia_foodcode_recalls_2023.cs
 # will add metadata from the ingredients dataset in the next script (01_build_wweia_2023.ipynb)
 ```
 
-### Generate FPED dataset
+# Generate FPED dataset
 
 
 ```python
@@ -88,7 +88,7 @@ fped_code = fped_code.drop(columns='cycle')
 fped_code.to_csv('../../data/00/wweia_dataset/wweia_fped_recalls_2023.csv', index=None)
 ```
 
-### Generate WWEIA total nutrients dataset
+# Generate WWEIA total nutrients dataset
 
 
 ```python
@@ -565,7 +565,7 @@ total_nut_mean = total_nut_all.groupby('SEQN').mean().reset_index()
 total_nut_mean.to_csv('../../data/00/wweia_dataset/wweia_total_nutrients_recalls_2023.csv', index=None)
 ```
 
-### Generate WWEIA ingredients dataset using FDA disaggreagtion database
+# Generate WWEIA ingredients dataset using FDA disaggreagtion database
 
 
 ```python
