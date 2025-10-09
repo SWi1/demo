@@ -8,15 +8,11 @@ has_toc: true
 
 # Step 3: Generate Different Dietary Representations
 
-<details open>
-  <summary>Table of Contents</summary>
-
+## Table of Contents
   - [Generate the Mixed Meal (foodcode level) dataset](#generate-the-mixed-meal-foodcode-level-dataset)
   - [Generate FPED dataset](#generate-fped-dataset)
   - [Generate WWEIA total nutrients dataset](#generate-wweia-total-nutrients-dataset)
   - [Generate WWEIA ingredients dataset using FDA disaggregation database](#generate-wweia-ingredients-dataset-using-fda-disaggregation-database)
-
-</details>
 
 ## Generate the Mixed Meal (foodcode level) dataset
 ```python
