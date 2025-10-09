@@ -2,6 +2,8 @@
 layout: default
 title: Generate Dietary Datasets
 nav_order: 2
+show_toc: true
+shared_toc: true
 ---
 
 <div style="width:100%; border:none;">
