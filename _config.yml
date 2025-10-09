@@ -1,6 +1,7 @@
 title: Using Diet in ML
 description: A demo on how to use dietary data in machine learning
 theme: just-the-docs
+markdown: kramdown
 
 url: https://swi1.github.io/demo/
 
