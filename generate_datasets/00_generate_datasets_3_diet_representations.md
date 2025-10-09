@@ -8,13 +8,13 @@ has_toc: true
 
 # Step 3: Generate Different Dietary Representations
 
-## Table of Contents
-{:toc}
+<details open>
+  <summary>Table of Contents</summary>
 
-<details open markdown="block">
-  <summary>Show/hide TOC</summary>
-
-  [Back to top](#step-3-generate-different-dietary-representations)
+  - [Generate the Mixed Meal (foodcode level) dataset](#generate-the-mixed-meal-foodcode-level-dataset)
+  - [Generate FPED dataset](#generate-fped-dataset)
+  - [Generate WWEIA total nutrients dataset](#generate-wweia-total-nutrients-dataset)
+  - [Generate WWEIA ingredients dataset using FDA disaggregation database](#generate-wweia-ingredients-dataset-using-fda-disaggregation-database)
 
 </details>
 
@@ -49,6 +49,7 @@ foodcode_mean.to_csv('../../data/00/wweia_dataset/wweia_foodcode_recalls_2023.cs
 
 # will add metadata from the ingredients dataset in the next script (01_build_wweia_2023.ipynb)
 ```
+[Back to top](#step-3-generate-different-dietary-representations)
 
 ## Generate FPED dataset
 
@@ -92,9 +93,9 @@ fped_code = fped_code.drop(columns='cycle')
 # save the FPED dataset
 fped_code.to_csv('../../data/00/wweia_dataset/wweia_fped_recalls_2023.csv', index=None)
 ```
+[Back to top](#step-3-generate-different-dietary-representations)
 
 ## Generate WWEIA total nutrients dataset
-
 
 ```python
 # Download Total Nutritent Intake Data for Day 1 and 2:
@@ -569,9 +570,9 @@ total_nut_mean = total_nut_all.groupby('SEQN').mean().reset_index()
 # save the dataset
 total_nut_mean.to_csv('../../data/00/wweia_dataset/wweia_total_nutrients_recalls_2023.csv', index=None)
 ```
-
-## Generate WWEIA ingredients dataset using FDA disaggreagtion database
-
+[Back to top](#step-3-generate-different-dietary-representations)
+  
+## Generate WWEIA ingredients dataset using FDA disaggregation database
 
 ```python
 # read in the FDA-FDD dataset (v3.0)
